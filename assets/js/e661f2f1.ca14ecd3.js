@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfoss_guru=self.webpackChunkfoss_guru||[]).push([[94],{1720:s=>{s.exports=JSON.parse('{"authors":[{"name":"Sujit Karne","title":"Foss Guru maintainer","key":"fossGuru","page":null,"count":1}]}')}}]);
