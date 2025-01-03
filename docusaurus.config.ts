@@ -19,7 +19,6 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'FossGuru-SK', // Usually your GitHub org/user name.
   projectName: 'foss-guru', // Usually your repo name.
-  trailingSlash: false,
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'warn',

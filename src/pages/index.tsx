@@ -37,7 +37,7 @@ export default function Home(): JSX.Element {
     description: " is the official open-source project in the Catena-X ecosystem under the umbrella of the Eclipse Foundation. The Eclipse Foundation is a not-for-profit corporation that is supported by over 320 members, and represents the worlds largest sponsored collection of Open Source projects and developers.",
     descriptionHighlight: "The Eclipse Tractus-X™ project",
     buttonText: "About Us",
-    link: "/aboutus"
+    link: "/"
   }
   return (
     <Layout
