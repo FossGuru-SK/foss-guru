@@ -59,15 +59,20 @@ const config: Config = {
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/fg_logo.png',
     navbar: {
       title: 'Foss Guru',
       logo: {
@@ -75,15 +80,20 @@ const config: Config = {
         src: 'img/fg_logo.png',
       },
       items: [
+        {to: '/blog', label: 'News', position: 'left'},
+        {
+          to: "/aboutus",
+          position: "left",
+          label: "About Us",
+        },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
-          position: 'right',
-          label: 'Tutorial',
+          position: 'left',
+          label: 'Tutorials',
         },
-        {to: '/blog', label: 'Blog', position: 'right'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/FossGuru-SK/foss-guru',
           label: 'GitHub',
           position: 'right',
         },
@@ -93,10 +103,10 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Foss Guru',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Tutorials',
               to: '/docs/intro',
             },
           ],
@@ -122,23 +132,19 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
+              label: 'News',
               to: '/blog',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/FossGuru-SK/foss-guru',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    },
-    prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
-    },
-  } satisfies Preset.ThemeConfig,
+      copyright: `Copyright © ${new Date().getFullYear()} Foss Guru, Inc. Built with Docusaurus.`,
+    }
+  }
 };
 
 export default config;

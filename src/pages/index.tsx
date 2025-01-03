@@ -4,38 +4,21 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import AboutUsCard from '@site/src/components/AboutUsCard';
+import KitsGalleryWithFilters from '../components/KitsGalleryWithFilters';
+import { kitsGallery } from '@site/utils/kitsGallery';
+
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   const aboutInput = {
-    title: "The magic behind Eclipse Tractus-X",
-    highlightText: "Welcome to the community",
-    description: " is the official open-source project in the Catena-X ecosystem under the umbrella of the Eclipse Foundation. The Eclipse Foundation is a not-for-profit corporation that is supported by over 320 members, and represents the worlds largest sponsored collection of Open Source projects and developers.",
-    descriptionHighlight: "The Eclipse Tractus-X™ project",
+    title: "Gateway to Open Source Excellence",
+    highlightText: "Open Source Knowledge Hub",
+    description: "Dive into the world of open source frameworks and tools. Whether you're an aspiring developer or a seasoned professional, our platform offers curated resources, tutorials, and insights to help you excel in technologies like Java, Spring Boot, Kotlin, CI/CD tools, and more.",
+    descriptionHighlight: "Foss Guru Project",
     buttonText: "About Us",
     link: "/"
   }
@@ -43,10 +26,14 @@ export default function Home(): JSX.Element {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
+      <HomepageFeatures />
       <main>
-        <AboutUsCard {...aboutInput} />
-        <HomepageFeatures />
+        <AboutUsCard{...aboutInput} />
+        <KitsGalleryWithFilters 
+          itemsArray={kitsGallery}
+          title={"Our Kits"}
+          description={"Unlock the power of kits. Browse the latest kits, their documentation, including tutorials,sample code, articles, and API reference."}
+        />
       </main>
     </Layout>
   );
