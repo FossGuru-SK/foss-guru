@@ -65,6 +65,19 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    // ------------DOCUSAURUS MULTI-INSTANCE PLUGIN--------------
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'community',
+        path: 'community',
+        routeBasePath: 'community',
+        sidebarPath: require.resolve('./sidebarsCommunity.ts')
+      },
+    ],
+  ],
+
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',
@@ -93,8 +106,27 @@ const config: Config = {
           label: 'Tutorials',
         },
         {
+          type: 'dropdown',
+          label: 'KITs',
+          to: '/community/kits/java/intro',
+          items: [
+            {
+              to: '/community/kits/java/intro',
+              label: 'Java'
+            },
+            {
+              to: '/community/kits/spring-ai/intro',
+              label: 'Spring-Ai'
+            },
+          ]
+        },
+        {
           href: 'https://github.com/FossGuru-SK/foss-guru',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          type: 'search',
           position: 'right',
         },
       ],

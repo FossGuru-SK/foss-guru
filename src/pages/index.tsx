@@ -20,7 +20,7 @@ export default function Home(): JSX.Element {
     description: "Dive into the world of open source frameworks and tools. Whether you're an aspiring developer or a seasoned professional, our platform offers curated resources, tutorials, and insights to help you excel in technologies like Java, Spring Boot, Kotlin, CI/CD tools, and more.",
     descriptionHighlight: "Foss Guru Project",
     buttonText: "About Us",
-    link: "/"
+    link: "/aboutus"
   }
   return (
     <Layout
@@ -31,8 +31,8 @@ export default function Home(): JSX.Element {
         <AboutUsCard{...aboutInput} />
         <KitsGalleryWithFilters 
           itemsArray={kitsGallery}
-          title={"Our Kits"}
-          description={"Unlock the power of kits. Browse the latest kits, their documentation, including tutorials,sample code, articles, and API reference."}
+          title={"Our Tech Stack"}
+          description={"Unlock the power of Tech Stack. Browse the latest Tech Stack, their documentation, including tutorials, sample code, articles, and API reference."}
         />
       </main>
     </Layout>

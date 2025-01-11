@@ -5,7 +5,7 @@ export const kitsGallery = [
     {
       id: 1,
       name: 'Java Kit',
-      domain: 'Language',
+      domain: 'Software Languages',
       img: Java_Kit,
       pageRoute: "/docs-kits/kits/Java Kit/Adoption View"
     },
