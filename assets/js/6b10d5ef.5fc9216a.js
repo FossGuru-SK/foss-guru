@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfoss_guru=self.webpackChunkfoss_guru||[]).push([[3788],{7650:t=>{t.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"Java Kit","slug":"/category/java-kit","permalink":"/foss-guru/community/category/java-kit","sidebar":"community","navigation":{"next":{"title":"Introduction","permalink":"/foss-guru/community/kits/java/Introduction"}}}}')}}]);
