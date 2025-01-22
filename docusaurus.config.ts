@@ -99,19 +99,19 @@ const config: Config = {
           position: "left",
           label: "About Us",
         },
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorials',
-        },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'tutorialSidebar',
+        //   position: 'left',
+        //   label: 'Tutorials',
+        // },
         {
           type: 'dropdown',
           label: 'KITs',
-          to: '/community/kits/java/intro',
+          to: '/community/kits/java/Introduction',
           items: [
             {
-              to: '/community/kits/java/intro',
+              to: '/community/kits/java/Introduction',
               label: 'Java'
             },
             {
@@ -138,8 +138,8 @@ const config: Config = {
           title: 'Foss Guru',
           items: [
             {
-              label: 'Tutorials',
-              to: '/docs/intro',
+              label: 'Kits',
+              to: '/community/kits/java/Introduction',
             },
           ],
         },

@@ -11,8 +11,20 @@ const sidebars: SidebarsConfig = {
             },
             collapsed: true,
             items: [
-                'kits/java/intro',
-                'kits/java/intro1',
+                'kits/java/Introduction',
+                {
+                    type: 'category',
+                    label: 'Java Language Basics',
+                    link: {
+                        type: 'generated-index',
+                    },
+                    items: [
+                        'kits/java/Java Language Basics/Introduction',
+                        'kits/java/Java Language Basics/Installation',
+                        'kits/java/Java Language Basics/Naming Conventions',
+                        'kits/java/Java Language Basics/Keywords',
+                    ]
+                },
             ]
         },
         {
