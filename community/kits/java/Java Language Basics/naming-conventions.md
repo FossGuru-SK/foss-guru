@@ -26,6 +26,7 @@ Funny Tip:
 "Naming a class Thing is like naming your dog 'Dog.' Sure, it works, but good luck explaining it to anyone."
 
 ### 2. Methods
+
 Rule: Method names should be verbs or action phrases, start with a lowercase letter, and use camel case.
 Why? Because methods do stuff, and verbs scream action!
 
@@ -38,6 +39,7 @@ Funny Tip:
 "A method named doStuff() is like telling someone, 'Go somewhere and do something.' Sure, it’s a command, but it’s not helpful!"
 
 ### 3. Variables
+
 Rule: Variables should be short, meaningful names written in camel case, starting with a lowercase letter.
 Why? Because variables are like labels—they should tell you what’s inside.
 
@@ -50,6 +52,7 @@ Funny Tip:
 "If your variable name requires an explanation in the comments, you’ve failed. Name it well, or prepare to write an essay."
 
 ### 4. Constants
+
 Rule: Constants should be all uppercase with words separated by underscores.
 Why? Because constants are loud and proud—think of them as the code equivalent of someone shouting, "THIS VALUE NEVER CHANGES!"
 
@@ -62,6 +65,7 @@ Funny Tip:
 "Naming a constant PI is cool. Naming it Pie is cruel. Don’t trick your future self into thinking dessert is involved."
 
 ### 5. Packages
+
 Rule: Package names should be lowercase, concise, and use dot notation to organize logically.
 Why? Because packages are like folders—clean organization makes everything easier to find.
 
@@ -87,13 +91,13 @@ Maintainability: Clear names make debugging feel less like solving a crime.
 Teamwork: Your teammates will hate you less if your names make sense. (Or at least hate you for other reasons.)
 
 > **Note:**
-> Since Java 9, the single character _ is an invalid name for a variable, but _a and __ (a double _ ) are legal names.
+> Since Java 9, the single character `_` is an invalid name for a variable, but _a and __ (a double `_` ) are legal names.
 
 ### 8. Naming Generic Types
 
 Generic type parameter names should be uppercase single letters. The letter 'T' for type is typically recommended. In JDK classes, E is used for collection elements, S is used for service loaders, and K and V are used for map keys and values.
 
-```
+```bash
 public interface Map <K,V> {}
 
 public interface List<E> extends Collection<E> {}
@@ -105,7 +109,7 @@ Iterator<E> iterator() {}
 
 Similar to class constants, enumeration names should be all uppercase letters.
 
-```
+```bash
 enum Direction {NORTH, EAST, SOUTH, WEST}
 ```
 

@@ -20,7 +20,7 @@ Here you have two choices:
 
 An .exe file which installs Java in your 64-bit windows machine and makes all necessary environment entries.
 
-```
+```bash
 For a normal user, it is the best approach.
 ```
 
@@ -38,9 +38,9 @@ Login to the oracle website if prompted.
 
 If we are installing the Java software with the exe file downloaded in the previous section, follow the given steps.
 
- - Step 1. Double-click on exe file to initiate the installation process
- - Step 2. Select Java installation location
- - Step 3. Begin Java Installation
+- Step 1. Double-click on exe file to initiate the installation process
+- Step 2. Select Java installation location
+- Step 3. Begin Java Installation
 
 ### 4. Installation with .zip File
 
@@ -48,7 +48,6 @@ This process is more suited for the Java developers community. Using this proces
 
 - Step 1. Extract the zip archive in desired location
 - Step 2. Add/Update the environment properties
-
 
 ## For Mac Machine
 
@@ -60,27 +59,37 @@ Homebrew is a package manager for macOS that simplifies the installation of soft
 
 - Open your Terminal.
 - Paste the following command and press Enter:
-```
+
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
 - Follow the on-screen instructions to complete the installation.
 - Verify Homebrew installation by running:
-```
+
+```bash
 brew --version
 ```
+
 ### 2. Install Java Using Homebrew
 
 - Update Homebrew to ensure you have the latest package list:
-```
+
+```bash
 brew update
 ```
+
 - Search for available Java versions:
-```
+
+```bash
 brew search openjdk
 ```
+
 This will list all OpenJDK versions. Pick the version you need (e.g., openjdk@17).
+
 - Install the desired version of Java. For example, to install OpenJDK 21:
-```
+
+```bash
 brew install openjdk@21
 ```
 
@@ -88,11 +97,13 @@ brew install openjdk@21
 
 Open a new command prompt or for Mac user open terminal to verify that Java has been installed on your computer. Type the below command which will print the version of Java installed on your computer.
 
-```
+```bash
 java -version
 ```
+
 The command output.
-```
+
+```bash
 java version "21.0.5" 2024-10-15 LTS
 Java(TM) SE Runtime Environment (build 21.0.5+9-LTS-239)
 Java HotSpot(TM) 64-Bit Server VM (build 21.0.5+9-LTS-239, mixed mode, sharing)

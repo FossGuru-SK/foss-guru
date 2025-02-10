@@ -10,7 +10,7 @@ sidebar_position: 1
 
 Java is a high-level, object-oriented programming language developed by James Gosling and his team at Sun Microsystems (now owned by Oracle). It’s like the Swiss Army knife of programming languages: versatile, portable, and designed to "write once, run anywhere."
 
-```
+```bash
 Funny Example:
 "Java is like that one friend who shows up prepared for everything—whether it’s building a web app, creating Android games, or controlling your smart fridge. If Java had a motto, it would be: 'I got this.'"
 ```
@@ -25,7 +25,7 @@ Java is concurrent, object-oriented, and intended to let application developers 
 
 Java was born in 1995, which makes it old enough to drink (and debug) in most countries. It was initially called "Oak" after a tree outside James Gosling’s office, but they switched to "Java" because—surprise—it’s a type of coffee. Clearly, caffeine was the fuel behind this creation.
 
-```
+```bash
 Fun Anecdote:
 "Imagine the brainstorming session: 'Oak is cool, but coffee keeps us awake to code. Let’s go with Java!' And the rest, as they say, is history."
 ```
@@ -38,7 +38,6 @@ The Java programming language was designed to be a machine-independent programmi
 
 Oracle Corporation is the current owner of the official implementation of the Java SE platform, following their acquisition of Sun Microsystems on January 27, 2010. This implementation is based on the original implementation of Java by Sun. The Oracle implementation is available for Microsoft Windows, Mac OS X, Linux, and Solaris.
 
-
 The Oracle implementation is packaged into two different distributions:
 
 - **Java Runtime Environment (JRE)**: which contains the parts of the Java SE platform required to run Java programs and is intended for end users.
@@ -50,7 +49,7 @@ We can read about all the previous [Java releases and their features](https://ww
 
 Think of the JVM as the translator who ensures your Java code is understood everywhere. You write the code, the JVM converts it into something the machine understands, and voilà, your program runs. It’s like having a universal adapter for every plug in the world.
 
-```
+```bash
 Funny Analogy:
 "The JVM is like a magical chef. You give it the bytecode recipe, and it cooks up a dish that tastes amazing on every operating system—Windows, Linux, or macOS."
 ```
@@ -61,7 +60,7 @@ Funny Analogy:
 
 Java comes with a garbage collector, a background process that tidies up unused memory. It’s like having a cleaning robot for your code. You don’t have to worry about memory leaks or accidentally leaving variables lying around.
 
-```
+```bash
 Funny Scenario:
 "Imagine a garbage collector for your life. Ate chips? The collector picks up the bag. Wrote bad code? Well, it’s still up to you to fix that!"
 ```
@@ -84,16 +83,17 @@ The traditional “Hello, world!” program can be written in Java as. Java sour
 
 The source file must first be compiled into bytecode, using a Java compiler, producing a file named Application.class. Only then can it be executed, or ‘launched’.
 
+```bash
+javac Application.java
 ```
-$ javac Application.java
-```
+
 The entry point for any Java program is the main() method. To execute the main() method, use the java command with the class name.
 
-```
-$ java Application.class
+```bash
+java Application.class
 ```
 
-```
+```bash
 Funny Explanation:
 "This is Java saying, 'Hi! I’m ready to conquer the world with you—one line of code at a time.'"
 ```
@@ -128,7 +128,7 @@ Java’s security features are like a bouncer for your code, ensuring no shady e
 
 Java compiler generates an OS architecture-neutral class file or bytecode. For example, in C programming, int data type occupies 2 bytes of memory for 32-bit architecture and 4 bytes of memory for 64-bit architecture. However, it occupies 4 bytes of memory for both 32 and 64-bit architectures in Java.
 
-```
+```bash
 Funny Recap:
 "If Java were a person, it would be that friend who shows up to the party with snacks, fixes your Wi-Fi, and even drives you home—securely!"
 ```

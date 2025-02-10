@@ -23,6 +23,12 @@ const sidebars: SidebarsConfig = {
                         'kits/java/Java Language Basics/Installation',
                         'kits/java/Java Language Basics/Naming Conventions',
                         'kits/java/Java Language Basics/Keywords',
+                        'kits/java/Java Language Basics/hello-world',
+                        'kits/java/Java Language Basics/diff-jdk-jre-jvm',
+                        'kits/java/Java Language Basics/main-method',
+                        'kits/java/Java Language Basics/class-object',
+                        'kits/java/Java Language Basics/classpath',
+                        'kits/java/Java Language Basics/operators'
                     ]
                 },
             ]
