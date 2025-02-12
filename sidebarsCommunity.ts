@@ -28,7 +28,24 @@ const sidebars: SidebarsConfig = {
                         'kits/java/Java Language Basics/main-method',
                         'kits/java/Java Language Basics/class-object',
                         'kits/java/Java Language Basics/classpath',
-                        'kits/java/Java Language Basics/operators'
+                        'kits/java/Java Language Basics/operators',
+                        'kits/java/Java Language Basics/variables',
+                        'kits/java/Java Language Basics/data-types',
+                        'kits/java/Java Language Basics/primitive-types',
+                        'kits/java/Java Language Basics/comments',
+                        'kits/java/Java Language Basics/statement',
+                        'kits/java/Java Language Basics/pass-by-reference-value'
+                    ]
+                },
+                {
+                    type: 'category',
+                    label: 'Flow Control Statements',
+                    link: {
+                        type: 'generated-index',
+                    },
+                    items: [
+                        'kits/java/Flow Control Statements/if-else',
+                        'kits/java/Flow Control Statements/switch'
                     ]
                 },
             ]
