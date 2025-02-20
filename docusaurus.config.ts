@@ -116,7 +116,11 @@ const config: Config = {
             },
             {
               to: '/community/kits/spring-ai/intro',
-              label: 'Spring-Ai'
+              label: 'Spring-AI'
+            },
+            {
+              to: '/community/kits/python/intro',
+              label: 'Python'
             },
           ]
         },

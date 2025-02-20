@@ -50,7 +50,10 @@ const sidebars: SidebarsConfig = {
                         'kits/java/Flow Control Statements/for-loop',
                         'kits/java/Flow Control Statements/for-each-loop',
                         'kits/java/Flow Control Statements/while-loop',
-                        'kits/java/Flow Control Statements/do-while-loop'
+                        'kits/java/Flow Control Statements/do-while-loop',
+                        'kits/java/Flow Control Statements/break',
+                        'kits/java/Flow Control Statements/continue',
+                        'kits/java/Flow Control Statements/lable'
                     ]
                 },
             ]
@@ -66,6 +69,17 @@ const sidebars: SidebarsConfig = {
                 'kits/spring-ai/intro'
             ]
         },
+        {
+            type: 'category',
+            label: 'Python Kit',
+            link: {
+                type: 'generated-index',
+            },
+            collapsed: true,
+            items: [
+                'kits/python/intro'
+            ]
+        }
     ]
 };
 
