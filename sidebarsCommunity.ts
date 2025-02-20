@@ -45,7 +45,12 @@ const sidebars: SidebarsConfig = {
                     },
                     items: [
                         'kits/java/Flow Control Statements/if-else',
-                        'kits/java/Flow Control Statements/switch'
+                        'kits/java/Flow Control Statements/switch',
+                        'kits/java/Flow Control Statements/ternary-operator',
+                        'kits/java/Flow Control Statements/for-loop',
+                        'kits/java/Flow Control Statements/for-each-loop',
+                        'kits/java/Flow Control Statements/while-loop',
+                        'kits/java/Flow Control Statements/do-while-loop'
                     ]
                 },
             ]
