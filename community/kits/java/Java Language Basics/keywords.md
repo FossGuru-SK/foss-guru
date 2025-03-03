@@ -51,8 +51,8 @@ Here are the 51 keywords you can't use as identifiers:
 | `else` | Defines an alternative branch in if-statements. |
 | `enum` | Creates an enumeration. |
 | `extends` | Extends a class. |
-| `final` | Prevents modification. |
-| `finally` | Always executes after try-catch. |
+| `final` | Prevents modification. [for info on final](../Java%20OOP/OOPs%20Inside%20Java/final-finally-finalise.md) |
+| `finally` | Always executes after try-catch. [for info on finally](../Java%20OOP/OOPs%20Inside%20Java/final-finally-finalise.md) |
 | `float` | 32-bit floating point. |
 | `for` | Starts a for-loop. |
 | `goto` | Reserved but not used. |
@@ -71,7 +71,7 @@ Here are the 51 keywords you can't use as identifiers:
 | `public` | Allows access everywhere. |
 | `return` | Returns from a method. |
 | `short` | Stores 16-bit integers. |
-| `static` | Belongs to the class, not instances. |
+| `static` | Belongs to the class, not instances. [for info on static](../Java%20OOP/OOPs%20Inside%20Java/static.md) |
 | `strictfp` | Ensures floating-point consistency. |
 | `super` | Refers to parent class. |
 | `switch` | Allows multiple execution paths. |

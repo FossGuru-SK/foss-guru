@@ -34,7 +34,8 @@ const sidebars: SidebarsConfig = {
                         'kits/java/Java Language Basics/primitive-types',
                         'kits/java/Java Language Basics/comments',
                         'kits/java/Java Language Basics/statement',
-                        'kits/java/Java Language Basics/pass-by-reference-value'
+                        'kits/java/Java Language Basics/pass-by-reference-value',
+                        'kits/java/Java Language Basics/immutable-class'
                     ]
                 },
                 {
@@ -54,6 +55,105 @@ const sidebars: SidebarsConfig = {
                         'kits/java/Flow Control Statements/break',
                         'kits/java/Flow Control Statements/continue',
                         'kits/java/Flow Control Statements/lable'
+                    ]
+                },
+                {
+                    type: 'category',
+                    label: 'Java OOP',
+                    link: {
+                        type: 'generated-index',
+                    },
+                    items: [
+                        'kits/java/Java OOP/java-oop',
+                        {
+                            type: 'category',
+                            label: 'Building Blocks of OOP',
+                            link: {
+                                type: 'generated-index',
+                            },
+                            items: [
+                                'kits/java/Java OOP/building-blocks-of-oops/object-oriented-programming',
+                                'kits/java/Java OOP/building-blocks-of-oops/association-aggregation-composition',
+                                'kits/java/Java OOP/building-blocks-of-oops/abstraction',
+                                'kits/java/Java OOP/building-blocks-of-oops/inheritance',
+                                'kits/java/Java OOP/building-blocks-of-oops/multiple-inheritance',
+                                'kits/java/Java OOP/building-blocks-of-oops/polymorphism',
+                                'kits/java/Java OOP/building-blocks-of-oops/encapsulation'
+                            ]
+                        },
+                        {
+                            type: 'category',
+                            label: 'OOPs Inside Java',
+                            link: {
+                                type: 'generated-index',
+                            },
+                            items: [
+                                'kits/java/Java OOP/OOPs Inside Java/constructor',
+                                'kits/java/Java OOP/OOPs Inside Java/access-modifiers',
+                                'kits/java/Java OOP/OOPs Inside Java/static',
+                                'kits/java/Java OOP/OOPs Inside Java/final-finally-finalise',
+                                'kits/java/Java OOP/OOPs Inside Java/instance-initializer-block',
+                                'kits/java/Java OOP/OOPs Inside Java/instanceof-operator',
+                                'kits/java/Java OOP/OOPs Inside Java/method-hiding'
+                            ]
+                        },
+                        {
+                            type: 'category',
+                            label: 'Differences need to know',
+                            link: {
+                                type: 'generated-index',
+                            },
+                            items: [
+                                'kits/java/Java OOP/Differences need to know/overloading-overriding',
+                                'kits/java/Java OOP/Differences need to know/encapsulation-abstraction',
+                                'kits/java/Java OOP/Differences need to know/interface-abstract-class'
+                            ]
+                        },
+                    ]
+                },
+                {
+                    type: 'category',
+                    label: 'Java Strings',
+                    link: {
+                        type: 'generated-index',
+                    },
+                    items: [
+                        'kits/java/Java Strings/introduction',
+                        'kits/java/Java Strings/string-constant-pool',
+                        'kits/java/Java Strings/immutable-strings',
+                        {
+                            type: 'category',
+                            label: 'Conversions',
+                            link: {
+                                type: 'generated-index',
+                            },
+                            items: [
+                                'kits/java/Java Strings/Conversions/string-to-int',
+                                'kits/java/Java Strings/Conversions/int-to-string',
+                                'kits/java/Java Strings/Conversions/string-to-long',
+                                'kits/java/Java Strings/Conversions/long-to-string',
+                                'kits/java/Java Strings/Conversions/date-to-string-to-date',
+                                'kits/java/Java Strings/Conversions/string-to-string-array',
+                                'kits/java/Java Strings/Conversions/join-or-concatenate-with-comma',
+                                'kits/java/Java Strings/Conversions/string-to-inputstream',
+                                'kits/java/Java Strings/Conversions/inputStream-to-string',
+                                'kits/java/Java Strings/Conversions/csv-string-using-regex',
+                                'kits/java/Java Strings/Conversions/escape-html',
+                                'kits/java/Java Strings/Conversions/unescape-html',
+                                'kits/java/Java Strings/Conversions/byteArray-to-string-to-byteArray',
+                                'kits/java/Java Strings/Conversions/exceptionStacktrace-to-string',
+                                'kits/java/Java Strings/Conversions/float-to-string'
+                            ]
+                        },
+                        {
+                            type: 'category',
+                            label: 'Examples and Interview Questions',
+                            link: {
+                                type: 'generated-index',
+                            },
+                            items: [
+                            ]
+                        },
                     ]
                 },
             ]

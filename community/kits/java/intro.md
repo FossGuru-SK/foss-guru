@@ -11,10 +11,10 @@ The following articles will help you quickly become familiar with Java language 
 
 ## Step-by-Step Learning Path
 
-1. Java Language Basics
-2. Flow Control Statements
-3. Java OOP
-4. Java Strings
+1. [Java Language Basics](./Java%20Language%20Basics/java-language-introduction.md)
+2. [Flow Control Statements](./Flow%20Control%20Statements/if-else.md)
+3. [Java OOP](./Java%20OOP/introduction.md)
+4. [Java Strings](./Java%20Strings/introduction.md)
 5. Java Exceptions
 6. Java Array
 7. Java Collections
