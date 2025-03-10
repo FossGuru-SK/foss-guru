@@ -115,7 +115,7 @@ const config: Config = {
               label: 'Java'
             },
             {
-              to: '/community/kits/spring-ai/intro',
+              to: '/community/kits/spring-ai/introduction',
               label: 'Spring-AI'
             },
             {

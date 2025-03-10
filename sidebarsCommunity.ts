@@ -166,7 +166,33 @@ const sidebars: SidebarsConfig = {
             },
             collapsed: true,
             items: [
-                'kits/spring-ai/intro'
+                'kits/spring-ai/introduction',
+                {
+                    type: 'category',
+                    label: 'Getting Started',
+                    link: {
+                        type: 'generated-index',
+                    },
+                    items: [
+                        'kits/spring-ai/Getting Started/basics',
+                        'kits/spring-ai/Getting Started/prompt-templates',
+                        'kits/spring-ai/Getting Started/structured-output',
+                        'kits/spring-ai/Getting Started/setup-ollama'
+                    ]
+                },
+                {
+                    type: 'category',
+                    label: 'Models',
+                    link: {
+                        type: 'generated-index',
+                    },
+                    items: [
+                        'kits/spring-ai/Model/embedding-model',
+                        'kits/spring-ai/Model/image-model',
+                        'kits/spring-ai/Model/speech-model',
+                        'kits/spring-ai/Model/speech-to-text'
+                    ]
+                },
             ]
         },
         {
