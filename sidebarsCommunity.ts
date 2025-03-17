@@ -156,6 +156,63 @@ const sidebars: SidebarsConfig = {
                         },
                     ]
                 },
+                {
+                    type: 'category',
+                    label: 'Misc Topics',
+                    link: {
+                        type: 'generated-index',
+                    },
+                    items: [
+                        {
+                            type: 'category',
+                            label: 'Java version and features',
+                            link: {
+                                type: 'generated-index',
+                            },
+                            items: [
+                                'kits/java/Misc Topics/java-versions-features/introduction',
+                                {
+                                    type: 'category',
+                                    label: 'Java 8',
+                                    link: {
+                                        type: 'generated-index',
+                                    },
+                                    items: [
+                                        'kits/java/Misc Topics/java-versions-features/java-8/introduction',
+                                        'kits/java/Misc Topics/java-versions-features/java-8/lambda-expression',
+                                        'kits/java/Misc Topics/java-versions-features/java-8/stream-api',
+                                        'kits/java/Misc Topics/java-versions-features/java-8/functional-interface',
+                                        'kits/java/Misc Topics/java-versions-features/java-8/date-time'
+                                    ]
+                                },
+                                {
+                                    type: 'category',
+                                    label: 'Java 9',
+                                    link: {
+                                        type: 'generated-index',
+                                    },
+                                    items: [
+                                        'kits/java/Misc Topics/java-versions-features/java-9/introduction',
+                                        'kits/java/Misc Topics/java-versions-features/java-9/java-platform-module-system',
+                                        'kits/java/Misc Topics/java-versions-features/java-9/private-interface-methods'
+                                    ]
+                                },
+                                {
+                                    type: 'category',
+                                    label: 'Java 10',
+                                    link: {
+                                        type: 'generated-index',
+                                    },
+                                    items: [
+                                        'kits/java/Misc Topics/java-versions-features/java-10/introduction',
+                                        'kits/java/Misc Topics/java-versions-features/java-10/java-var',
+                                        'kits/java/Misc Topics/java-versions-features/java-10/time-based-release-versioning'
+                                    ]
+                                },
+                            ]
+                        },
+                    ]
+                },
             ]
         },
         {
