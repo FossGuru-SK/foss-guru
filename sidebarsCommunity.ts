@@ -209,6 +209,46 @@ const sidebars: SidebarsConfig = {
                                         'kits/java/Misc Topics/java-versions-features/java-10/time-based-release-versioning'
                                     ]
                                 },
+                                {
+                                    type: 'category',
+                                    label: 'Java 11 [LTS]',
+                                    link: {
+                                        type: 'generated-index',
+                                    },
+                                    items: [
+                                        'kits/java/Misc Topics/java-versions-features/java-11/introduction'
+                                    ]
+                                },
+                                {
+                                    type: 'category',
+                                    label: 'Java 12',
+                                    link: {
+                                        type: 'generated-index',
+                                    },
+                                    items: [
+                                        'kits/java/Misc Topics/java-versions-features/java-12/introduction'
+                                    ]
+                                },
+                                {
+                                    type: 'category',
+                                    label: 'Java 13',
+                                    link: {
+                                        type: 'generated-index',
+                                    },
+                                    items: [
+                                        'kits/java/Misc Topics/java-versions-features/java-13/introduction'
+                                    ]
+                                },
+                                {
+                                    type: 'category',
+                                    label: 'Java 14',
+                                    link: {
+                                        type: 'generated-index',
+                                    },
+                                    items: [
+                                        'kits/java/Misc Topics/java-versions-features/java-14/introduction'
+                                    ]
+                                },
                             ]
                         },
                     ]

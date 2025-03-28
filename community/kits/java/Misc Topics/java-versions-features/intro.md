@@ -99,6 +99,15 @@ Java 14 was released on March 17, 2020.
 - **JEP-305**: Pattern Matching for `instanceof` (Preview)
 - **JEP-359**: Records (Preview)
 - **JEP-361**: Switch Expressions (Standard)
+- **JEP 368**: Text Blocks (Second Preview)
+- **JEP 358**: Helpful NullPointerExceptions
+- **JEP 343**: Packaging Tool (Incubator)
+- **JEP 345**: NUMA-Aware Memory Allocation for G1
+- **JEP 349**: JFR Event Streaming
+- **JEP 352**: Non-Volatile Mapped Byte Buffers
+- **JEP 363**: Remove the Concurrent Mark Sweep (CMS) Garbage Collector
+- **JEP 367**: Remove the Pack200 Tools and API
+- **JEP 370**: Foreign-Memory Access API (Incubator)
 
 ## Java 13 Features
 
@@ -106,12 +115,21 @@ Java 13 was released on September 17, 2019.
 
 - **JEP-355**: Text Blocks (Preview)
 - **JEP-354**: Switch Expressions Enhancements (Preview)
+- **JEP 353**: Reimplement the Legacy Socket API
+- **JEP 350**: Dynamic CDS Archive
+- **JEP 351**: ZGC: Uncommit Unused Memory
+- **FileSystems.newFileSystem() Method**
+- **DOM and SAX Factories with Namespace Support**
 
 ## Java 12 Features
 
 Java 12 was released on March 19, 2019.
 
-- **Collectors.teeing()** in Stream API
+- [**Collectors.teeing()** in Stream API](./java-12/introduction.md)
+- **Switch Expressions (Preview)**
+- **Files.mismatch(Path, Path)**
+- **Compact Number Formatting**
+- **Support for Unicode 11**
 - **Switch Expressions (Preview)**
 
 ## Java 11 Features [LTS]
