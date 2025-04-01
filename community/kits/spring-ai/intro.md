@@ -40,16 +40,16 @@ Spring AI is packed with goodies! Check out these tutorials to become an AI ninj
 - [Spring AI EmbeddingModel](./Model/embedding-model.md) – Smarter text searches.
 - [Spring AI ImageModel (Text-to-Image)](./Model/image-model.md) – AI-generated artwork! 🎨
 - [Spring AI SpeechModel (Text-to-Speech)](./Model/speech-model.md) – Give your AI a voice!
-- [Spring AI AudioTranscriptionModel (Speech-to-Text)](#) – AI that listens. 👂
+- [Spring AI AudioTranscriptionModel (Speech-to-Text)](./Model/speech-to-text.md) – AI that listens. 👂
 
 ### 🏛 3. Vector Store
 
-- [Spring AI VectorStore with ChromaDB](#) – AI knowledge storage!
-- [Spring AI and PgVectorStore Examples](#) – PostgreSQL meets AI!
+- [Spring AI and PgVectorStore Examples](./Vector%20Store/pg-vector.md) – PostgreSQL meets AI!
+- [Spring AI VectorStore with ChromaDB](./Vector%20Store/chroma-db.md) – AI knowledge storage!
 
 ### 🚀 4. Advanced Features
 
-- [Spring AI Function Calling Example](#) – AI that executes functions. 🤯
+- [Spring AI Function Calling Example- @Deprecated](https://docs.spring.io/spring-ai/reference/api/functions.html) – AI that executes functions. 🤯
 
 ### 🔄 5. ETL Pipeline
 

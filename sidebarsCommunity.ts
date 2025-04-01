@@ -290,6 +290,17 @@ const sidebars: SidebarsConfig = {
                         'kits/spring-ai/Model/speech-to-text'
                     ]
                 },
+                {
+                    type: 'category',
+                    label: 'Vector Store',
+                    link: {
+                        type: 'generated-index',
+                    },
+                    items: [
+                        'kits/spring-ai/Vector Store/pg-vector',
+                        'kits/spring-ai/Vector Store/chroma-db',
+                    ]
+                },
             ]
         },
         {
