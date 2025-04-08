@@ -311,7 +311,18 @@ const sidebars: SidebarsConfig = {
             },
             collapsed: true,
             items: [
-                'kits/python/intro'
+                'kits/python/intro',
+                {
+                    type: 'category',
+                    label: 'Python Language Basics',
+                    link: {
+                        type: 'generated-index',
+                    },
+                    items: [
+                        'kits/python/Python Language Basics/installation',
+                        'kits/python/Python Language Basics/keywords'
+                    ]
+                },
             ]
         }
     ]
