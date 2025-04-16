@@ -108,9 +108,9 @@ No prep, just vibes.
 ### 7.1. Language Basics
 
 - [Python – Install VS code and python plugin](./Python%20Language%20Basics/installation.md)
-- Python – Comments (talk to yourself but in code)  
-- Python – Variables (name your data like pets)  
-- Python – Data Types (because not all data is created equal)  
+- [Python – Comments (talk to yourself but in code)](./Python%20Language%20Basics/comments.md)  
+- [Python – Variables (name your data like pets)](./Python%20Language%20Basics/variables.md)
+- [Python – Data Types (because not all data is created equal)](./Python%20Language%20Basics/built-in-datatypes.md)  
 - Python – [Keywords](./Python%20Language%20Basics/keywords.md), Integers, Strings, Lists, Tuples (the whole gang)  
 
 ### 7.2. Strings

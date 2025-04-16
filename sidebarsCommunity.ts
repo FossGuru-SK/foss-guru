@@ -320,7 +320,51 @@ const sidebars: SidebarsConfig = {
                     },
                     items: [
                         'kits/python/Python Language Basics/installation',
-                        'kits/python/Python Language Basics/keywords'
+                        'kits/python/Python Language Basics/keywords',
+                        'kits/python/Python Language Basics/comments',
+                        'kits/python/Python Language Basics/variables',
+                        'kits/python/Python Language Basics/data-types',
+                        'kits/python/Python Language Basics/type-conversion',
+                        {
+                            type: 'category',
+                            label: 'Python Examples',
+                            link: {
+                                type: 'generated-index',
+                            },
+                            items: [
+                                'kits/python/Python Language Basics/Python Examples/introducation',
+                                'kits/python/Python Language Basics/Python Examples/python-dict-intersection',
+                                'kits/python/Python Language Basics/Python Examples/python-nlargest-nsmallest',
+                                'kits/python/Python Language Basics/Python Examples/python-unpack-tuple'
+                            ]
+                        }
+                    ]
+                },
+                {
+                    type: 'category',
+                    label: 'Python Flow Control',
+                    link: {
+                        type: 'generated-index',
+                    },
+                    items: [
+                        'kits/python/Python Flow Control/if-else',
+                        'kits/python/Python Flow Control/for',
+                        'kits/python/Python Flow Control/while'
+                    ]
+                },
+                {
+                    type: 'category',
+                    label: 'Python Data Types',
+                    link: {
+                        type: 'generated-index',
+                    },
+                    items: [
+                        'kits/python/Python DataTypes/integer',
+                        'kits/python/Python DataTypes/strings',
+                        'kits/python/Python DataTypes/list',
+                        'kits/python/Python DataTypes/tuple',
+                        'kits/python/Python DataTypes/set',
+                        'kits/python/Python DataTypes/dictionary'
                     ]
                 },
             ]

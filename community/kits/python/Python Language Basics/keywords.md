@@ -6,7 +6,7 @@ sidebar_position: 2
 ---
 ![banner-python](@site/static/img/kits/python/banner-python.png)
 
-# Python Keywords: The VIPs of Your Code Party 🎉
+## Python Keywords: The VIPs of Your Code Party 🎉
 
 Welcome to the whimsical world of Python keywords! Think of them as the VIP guests at your coding soirée—they have special roles and are off-limits for mundane tasks like naming your variables or functions. Let's embark on a fun-filled journey to meet these 35 distinguished characters.
 
@@ -20,7 +20,7 @@ Curious about who made it to the VIP list? Just ask Python politely:
 
 And voilà, Python spills the beans:
 
-```
+```py
 Here is a list of the Python keywords. Enter any keyword to get more help.
 
 False               class               from                or
@@ -297,7 +297,6 @@ x = "hello"
 if not type(x) is int:
     raise TypeError("Only integers are allowed")
 ```
-
 
 - **finally**
 It defines a code block which will be executed no matter if the try block raises an error or not.
