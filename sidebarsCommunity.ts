@@ -364,7 +364,32 @@ const sidebars: SidebarsConfig = {
                         'kits/python/Python DataTypes/list',
                         'kits/python/Python DataTypes/tuple',
                         'kits/python/Python DataTypes/set',
-                        'kits/python/Python DataTypes/dictionary'
+                        'kits/python/Python DataTypes/dictionary',
+                        'kits/python/Python DataTypes/ordered-dictionary',
+                        'kits/python/Python DataTypes/priority-queue'
+                    ]
+                },
+                {
+                    type: 'category',
+                    label: 'Python Modules',
+                    link: {
+                        type: 'generated-index',
+                    },
+                    items: [
+                        'kits/python/Python Modules/bcrypt',
+                        'kits/python/Python Modules/hashlib',
+                        'kits/python/Python Modules/httplib2',
+                        'kits/python/Python Modules/json'
+                    ]
+                },
+                {
+                    type: 'category',
+                    label: 'Python Advance Topics',
+                    link: {
+                        type: 'generated-index',
+                    },
+                    items: [
+                        'kits/python/Python Advance Topics/csv',
                     ]
                 },
             ]
