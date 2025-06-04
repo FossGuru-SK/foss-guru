@@ -139,28 +139,28 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Foss Guru',
+          title: 'About us',
           items: [
             {
-              label: 'Kits',
-              to: '/community/kits/java/Introduction',
+              label: 'We share the best practices, algorithms & solutions and frequently asked interview questions for techie.',
+              to: '/aboutus',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Tutorial Series',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Java',
+              to: '/community/kits/java/Introduction',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Python',
+              to: '/community/kits/python/intro',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Spring-AI',
+              to: '/community/kits/spring-ai/introduction',
             },
           ],
         },

@@ -6,9 +6,9 @@ export default function AboutUsHeader() {
   return (
     <header className={styles.about_header}>
       <div className={styles.container}>
-        <div className={styles.svg_container}>
+        {/* <div className={styles.svg_container}>
           <FossGuruSvg className={styles.svg} />
-        </div>
+        </div> */}
         <div className={styles.information_container}>
           <h1 className="headers-title-h1">About FossGuru</h1>
           <p className="headers-subtitle-p">

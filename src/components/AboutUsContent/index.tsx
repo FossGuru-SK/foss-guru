@@ -1,6 +1,6 @@
 import React from "react";
-import LearningProcessImg from "../../../static/img/fg_logo.svg"; // Replace with your image
-import CommunityDiagram from "../../../static/img/fg_logo.svg"; // Replace with your image
+import LearningProcessImg from "../../../static/img/learning-process.png"; // Replace with your image
+import CommunityDiagram from "../../../static/img/connect-community.png"; // Replace with your image
 import styles from "./styles.module.css";
 
 export default function AboutUsContent() {
