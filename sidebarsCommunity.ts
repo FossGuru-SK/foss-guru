@@ -393,6 +393,17 @@ const sidebars: SidebarsConfig = {
                     ]
                 },
             ]
+        },
+        {
+            type: 'category',
+            label: 'Kotlin Kit',
+            link: {
+                type: 'generated-index',
+            },
+            collapsed: true,
+            items: [
+                'kits/kotlin/Introduction',
+            ]
         }
     ]
 };
