@@ -249,6 +249,71 @@ const sidebars: SidebarsConfig = {
                                         'kits/java/Misc Topics/java-versions-features/java-14/introduction'
                                     ]
                                 },
+                                {
+                                    type: 'category',
+                                    label: 'Java 15',
+                                    link: {
+                                        type: 'generated-index',
+                                    },
+                                    items: [
+                                        'kits/java/Misc Topics/java-versions-features/java-15/introduction',
+                                        'kits/java/Misc Topics/java-versions-features/java-15/sealed-classes-interfaces',
+                                        'kits/java/Misc Topics/java-versions-features/java-15/java-eddsa'
+                                    ]
+                                },
+                                {
+                                    type: 'category',
+                                    label: 'Java 16',
+                                    link: {
+                                        type: 'generated-index',
+                                    },
+                                    items: [
+                                        'kits/java/Misc Topics/java-versions-features/java-16/introduction'
+                                    ]
+                                },
+                                {
+                                    type: 'category',
+                                    label: 'Java 17',
+                                    link: {
+                                        type: 'generated-index',
+                                    },
+                                    items: [
+                                        'kits/java/Misc Topics/java-versions-features/java-17/introduction'
+                                    ]
+                                },
+                                {
+                                    type: 'category',
+                                    label: 'Java 18',
+                                    link: {
+                                        type: 'generated-index',
+                                    },
+                                    items: [
+                                        'kits/java/Misc Topics/java-versions-features/java-18/introduction'
+                                    ]
+                                },
+                                {
+                                    type: 'category',
+                                    label: 'Java 19',
+                                    link: {
+                                        type: 'generated-index',
+                                    },
+                                    items: [
+                                        'kits/java/Misc Topics/java-versions-features/java-19/introduction',
+                                        'kits/java/Misc Topics/java-versions-features/java-19/virtual-threads'
+                                    ]
+                                },
+                                {
+                                    type: 'category',
+                                    label: 'Java 20',
+                                    link: {
+                                        type: 'generated-index',
+                                    },
+                                    items: [
+                                        'kits/java/Misc Topics/java-versions-features/java-20/introduction',
+                                        'kits/java/Misc Topics/java-versions-features/java-20/scoped-values',
+                                        'kits/java/Misc Topics/java-versions-features/java-20/thread-safe'
+                                    ]
+                                },
                             ]
                         },
                     ]
