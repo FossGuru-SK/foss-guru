@@ -16,6 +16,7 @@ Let’s take a hilarious (and educational) journey through the whimsical world o
 
 - It’s **open-source**, which means it’s free—like your best friend's Wi-Fi.  
 - You can install it, use it, and make a million-dollar app with it, all without paying a dime. Cha-ching! 💸
+- Also, there are multiple libraries available for you just on your finger tip.
 
 ---
 
