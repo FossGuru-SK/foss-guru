@@ -469,6 +469,17 @@ const sidebars: SidebarsConfig = {
             items: [
                 'kits/kotlin/Introduction',
             ]
+        },
+        {
+            type: 'category',
+            label: 'Agentic AI Kit',
+            link: {
+                type: 'generated-index',
+            },
+            collapsed: true,
+            items: [
+                'kits/agentic-ai/Introduction',
+            ]
         }
     ]
 };

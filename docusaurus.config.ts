@@ -122,6 +122,14 @@ const config: Config = {
               to: '/community/kits/python/intro',
               label: 'Python'
             },
+            {
+              to: '/community/kits/kotin/introduction',
+              label: 'Kotlin'
+            },
+            {
+              to: '/community/kits/agentic-ai/intro',
+              label: 'Agentic AI'
+            },
           ]
         },
         {

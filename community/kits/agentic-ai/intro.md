@@ -1,7 +1,7 @@
 ---
 id: Introduction
 title: Introduction
-description: 'Kotlin Learning Kit'
+description: 'Agentic AI in details'
 sidebar_position: 1
 ---
 
